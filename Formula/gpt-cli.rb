@@ -1,8 +1,8 @@
 class GptCli < Formula
   desc "Communicate with ChatGPT from the CLI."
   homepage "https://github.com/Kobayashi-takumi/gpt-cli"
-  url "https://github.com/Kobayashi-takumi/gpt-cli/releases/download/v0.1.0/gpt-cli-0.1.0-aarch64-apple-darwin.tar.gz"
-  sha256 "0d3c4d991bef9bab6766ad58739d2e0f1ecf7bd386584c5dfa94f61391c0f65a"
+  url "https://github.com/Kobayashi-takumi/gpt-cli/releases/download/v0.2.0/gpt-cli-0.2.0-aarch64-apple-darwin.tar.gz"
+  sha256 "a1d5b96d95fe11648d2f69ba723379f9ae444386ba68ef3888fcc77a8dc3a365"
   version "0.1.0"
 
   def install
