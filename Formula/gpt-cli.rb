@@ -1,4 +1,4 @@
-class GptCli < Formula
+class Gpt < Formula
   desc "Communicate with ChatGPT from the CLI."
   homepage "https://github.com/Kobayashi-takumi/gpt-cli"
   url "https://github.com/Kobayashi-takumi/gpt-cli/releases/download/v0.4.0/gpt-cli-0.4.0-aarch64-apple-darwin.tar.gz"
