@@ -1,4 +1,4 @@
-class Gpt < Formula
+class GptCli < Formula
   desc "Communicate with ChatGPT from the CLI."
   homepage "https://github.com/Kobayashi-takumi/gpt-cli"
   url "https://github.com/Kobayashi-takumi/gpt-cli/releases/download/v0.4.0/gpt-cli-0.4.0-aarch64-apple-darwin.tar.gz"
@@ -6,6 +6,6 @@ class Gpt < Formula
   version "0.4.0"
 
   def install
-    bin.install "gpt-cli"
+    system "make", "install"
   end
 end
